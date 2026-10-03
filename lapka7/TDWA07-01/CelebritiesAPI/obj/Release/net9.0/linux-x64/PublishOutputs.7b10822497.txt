@@ -1,0 +1,7 @@
+D:\3курс6сем\ТРВП\lapka7\TDWA07-01\CelebritiesAPI\publish\appsettings.Development.json
+D:\3курс6сем\ТРВП\lapka7\TDWA07-01\CelebritiesAPI\publish\appsettings.json
+D:\3курс6сем\ТРВП\lapka7\TDWA07-01\CelebritiesAPI\publish\publish\appsettings.Development.json
+D:\3курс6сем\ТРВП\lapka7\TDWA07-01\CelebritiesAPI\publish\publish\appsettings.json
+D:\3курс6сем\ТРВП\lapka7\TDWA07-01\CelebritiesAPI\publish\publish\CelebritiesAPI.staticwebassets.endpoints.json
+D:\3курс6сем\ТРВП\lapka7\TDWA07-01\CelebritiesAPI\publish\CelebritiesAPI.pdb
+D:\3курс6сем\ТРВП\lapka7\TDWA07-01\CelebritiesAPI\publish\CelebritiesAPI

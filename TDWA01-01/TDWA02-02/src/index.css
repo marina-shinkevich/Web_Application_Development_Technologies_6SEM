@@ -1,0 +1,180 @@
+:root {
+  /* Основной шрифт и базовые настройки текста */
+  font-family: 'Segoe UI', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  font-weight: 400;
+
+  /* Поддержка светлой и темной темы */
+  color-scheme: light dark;
+
+  /* Цвет текста и фон для темной темы */
+  color: #e0dfff;            /* светло-фиолетовый для текста */
+  background-color: #1a0f2b;  /* темно-фиолетовый фон */
+
+  /* Оптимизация рендеринга текста */
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Стили ссылок */
+a {
+  font-weight: 500;
+  color: #9b5de5; /* яркий фиолетовый */
+  text-decoration: none;
+  transition: color 0.3s;
+}
+a:hover {
+  color: #7b3fc3; /* темнее при наведении */
+}
+
+/* Стили тела страницы */
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center; /* центрируем по горизонтали */
+  align-items: flex-start; /* старт от верха для ощущения пространства */
+  padding: 40px 20px;      /* добавляем пространство от краев */
+  min-width: 360px;
+  min-height: 100vh;
+  background: var(--bg-color, #1a0f2b);
+  gap: 30px;               /* общий зазор между элементами */
+}
+
+/* Контейнер всей страницы */
+.container {
+  max-width: 600px;        /* ограничиваем ширину для лучшей читаемости */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;               /* вертикальный отступ между блоками */
+  background-color: #2a183e; /* мягкий темный фон контейнера */
+  padding: 30px 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.6); /* современный тень */
+}
+
+/* Заголовок */
+h1 {
+  font-size: 2.8em;
+  line-height: 1.2;
+  color: #d4c1ff;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Блок формы */
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* раздвигаем поля */
+}
+
+.form label {
+  display: flex;
+  justify-content: space-between; /* лейбл слева, input справа */
+  align-items: center;
+  font-size: 1.1em;
+}
+
+.form input {
+  padding: 8px 12px;
+  font-size: 1em;
+  border-radius: 8px;
+  border: 1px solid #5a3fa3;
+  background-color: #3b2661;
+  color: #f0e6ff;
+  flex: 1;
+  margin-left: 15px;
+  transition: border-color 0.3s, background-color 0.3s;
+}
+
+.form input:focus {
+  outline: none;
+  border-color: #9b5de5;
+  background-color: #4a3380;
+}
+
+/* Блок кнопок */
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+button {
+  flex: 1;
+  min-width: 100px;
+  border-radius: 12px;
+  border: 1px solid transparent;
+  padding: 0.8em 1.5em;
+  font-size: 1em;
+  font-weight: 600;
+  font-family: inherit;
+  background-color: #4a3380; /* слегка светлее чем фон контейнера */
+  color: #f0e6ff;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+button:hover {
+  border-color: #9b5de5;
+  background-color: #5b44a5;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto #9b5de5;
+}
+
+/* Блок результата */
+.result {
+  background-color: #3b2661;
+  padding: 20px;
+  border-radius: 12px;
+  color: #f0e6ff;
+  font-family: 'Courier New', monospace; /* кодовый стиль для JSON */
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.result h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.result pre {
+  margin: 0;
+  white-space: pre-wrap; /* перенос строк в JSON */
+  word-break: break-word;
+}
+
+/* Светлая тема */
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #646cff;
+  }
+  .container {
+    background-color: #f4f4ff;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+  }
+  .form input {
+    background-color: #ffffff;
+    border: 1px solid #646cff;
+    color: #213547;
+  }
+  button {
+    background-color: #e0e0ff;
+    color: #213547;
+  }
+  .result {
+    background-color: #f0f0ff;
+    color: #213547;
+  }
+}

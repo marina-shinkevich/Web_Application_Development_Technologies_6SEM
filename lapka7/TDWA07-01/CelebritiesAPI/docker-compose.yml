@@ -1,0 +1,30 @@
+version: '3.8'
+
+services:
+  mssql_server:
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: "SuperSafe_Passw0rd_2026"
+    ports:
+      - "1434:1433"
+
+
+  docker-nginx:
+    image: nginx:latest
+    ports:
+      - "1435:1435"
+      - "8080:80"
+    volumes:
+      - ./db-nginx.conf:/etc/nginx/nginx.conf:ro
+    depends_on:
+      - mssql_server
+      
+  tdwa07_app:
+    image: marinashinkevich/tdwa07-01:latest
+    environment:
+      ConnectionStrings__Default: "Server=docker-nginx,1435;Database=Celebrities;User Id=sa;Password=SuperSafe_Passw0rd_2026;Encrypt=False;TrustServerCertificate=True;"
+    depends_on:
+      - docker-nginx
+    ports:
+      - "3005:3005"

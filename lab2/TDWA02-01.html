@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>TDWA02-01 – JSON Client</title>
+    <link rel="stylesheet" href="TDWA02-01.css">
+</head>
+<body>
+    <h1>TDWA02-01 – Работа с TDWA01-01 через NGINX</h1>
+
+    <div class="form">
+        <label>
+            Операция (op):
+            <input type="text" id="op" placeholder="add | sub | mul | div">
+        </label>
+        <label>
+            x:
+            <input type="number" id="x" placeholder="3">
+        </label>
+        <label>
+            y:
+            <input type="number" id="y" placeholder="5">
+        </label>
+    </div>
+
+    <div class="buttons">
+        <button id="btn-get">GET</button>
+        <button id="btn-post">POST</button>
+        <button id="btn-put">PUT</button>
+        <button id="btn-delete">DELETE</button>
+    </div>
+
+    <div class="result">
+        <h2>Результат</h2>
+        <p><strong>HTTP статус:</strong> <span id="status">—</span></p>
+        <pre id="response">Ответ будет здесь</pre>
+    </div>
+
+    <script src="TDWA02-01.js" defer></script>
+</body>
+</html>

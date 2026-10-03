@@ -1,0 +1,78 @@
+1. Прямые запросы к серверам TDWA05-01
+
+dotnet run --urls=http://localhost:5000
+
+dotnet run X 5001 1000
+dotnet run Y 5002 2000
+dotnet run Z 5003 3000
+
+# Прямые запросы 
+curl.exe -X GET http://localhost:5001/A
+curl.exe -X POST http://localhost:5001/A
+curl.exe -X PUT http://localhost:5001/A
+curl.exe -X DELETE http://localhost:5001/A
+
+curl.exe -X GET http://localhost:5002/A
+curl.exe -X POST http://localhost:5002/A
+curl.exe -X PUT http://localhost:5002/A
+curl.exe -X DELETE http://localhost:5002/A
+
+
+curl.exe -X GET http://localhost:5003/A
+curl.exe -X POST http://localhost:5003/A
+curl.exe -X PUT http://localhost:5003/A
+curl.exe -X DELETE http://localhost:5003/A
+
+
+
+
+
+dotnet run
+
+
+curl.exe -X GET http://localhost:5000/lb
+curl.exe -X GET http://localhost:5000/lb
+curl.exe -X GET http://localhost:5000/lb
+curl.exe -X GET http://localhost:5000/lb
+
+curl.exe -X GET http://localhost:5000/lb
+curl.exe -X POST http://localhost:5000/lb
+curl.exe -X PUT http://localhost:5000/lb
+curl.exe -X DELETE http://localhost:5000/lb
+
+
+curl.exe -X GET http://localhost:5001/A
+curl.exe -X PUT http://localhost:5001/A
+
+curl.exe -X GET http://localhost:5002/A
+curl.exe -X PUT http://localhost:5002/A
+
+
+curl.exe -X GET http://localhost:5003/A
+curl.exe -X PUT http://localhost:5003/A
+
+
+
+
+# Round Robin Gateway 
+curl.exe -X GET http://localhost:5000/lb
+curl.exe -X GET http://localhost:5000/lb
+curl.exe -X GET http://localhost:5000/lb
+curl.exe -X GET http://localhost:5000/lb
+
+# Sticky Sessions Gateway 
+curl.exe -X GET http://localhost:5005/lb-sticky
+curl.exe -X GET http://localhost:5005/lb-sticky
+curl.exe -X GET http://localhost:5005/lb-sticky
+curl.exe -X GET http://localhost:5005/lb-sticky
+
+
+
+5. Кастомный балансировщик (50% X, 30% Y, 20% Z)
+
+# Gateway 3 (порт 5010)
+curl.exe -X GET http://localhost:5010/lb-custom
+curl.exe -X POST http://localhost:5010/lb-custom
+curl.exe -X PUT http://localhost:5010/lb-custom
+curl.exe -X DELETE http://localhost:5010/lb-custom
+

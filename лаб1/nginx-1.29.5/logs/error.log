@@ -1,0 +1,453 @@
+2026/03/05 23:20:24 [warn] 18536#2120: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/05 23:20:24 [warn] 3976#11540: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/06 07:59:16 [warn] 19064#20708: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/06 07:59:16 [warn] 18420#20228: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/06 08:01:20 [error] 18420#15012: *1 CreateFile() "D:\3курс6сем\ТРВП\лаб1\nginx-1.29.5/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2026/03/06 09:36:56 [warn] 24040#13692: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/06 09:36:56 [warn] 24360#13480: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/06 09:37:21 [warn] 19552#17704: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/06 09:37:21 [notice] 19552#17704: signal process started
+2026/03/06 09:37:38 [warn] 12232#16592: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/06 09:37:38 [notice] 12232#16592: signal process started
+2026/03/06 09:37:38 [error] 12232#16592: CreateFile() "D:\3курс6сем\ТРВП\лаб1\nginx-1.29.5/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2026/03/06 09:38:34 [warn] 20616#9840: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/06 09:38:34 [warn] 20632#23488: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/06 09:40:15 [warn] 5312#19192: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/06 09:40:15 [notice] 5312#19192: signal process started
+2026/03/06 09:41:40 [warn] 16212#23224: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/06 09:41:40 [warn] 19904#23180: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/06 11:02:58 [warn] 20868#6108: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/06 11:02:58 [warn] 11040#17032: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/12 23:49:23 [warn] 13704#15792: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/12 23:49:23 [warn] 7448#16272: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/12 23:52:10 [warn] 8772#18076: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/12 23:52:10 [notice] 8772#18076: signal process started
+2026/03/12 23:53:32 [warn] 13768#4596: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/12 23:53:32 [warn] 11036#19008: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/12 23:55:04 [warn] 10176#9108: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/12 23:55:04 [warn] 10176#9108: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/12 23:55:04 [warn] 460#11952: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/12 23:55:04 [warn] 460#11952: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/12 23:55:35 [warn] 11536#5988: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/12 23:55:35 [warn] 11536#5988: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/12 23:55:35 [warn] 5432#14272: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/12 23:55:35 [warn] 5432#14272: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/12 23:57:44 [error] 5432#13472: *4 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "OPTIONS /api/Save-JSON:20000 HTTP/1.1", upstream: "http://[::1]:40000/NGINX-test:20000", host: "localhost:20000", referrer: "http://localhost:5173/"
+2026/03/12 23:57:46 [error] 5432#13472: *4 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "OPTIONS /api/Save-JSON:20000 HTTP/1.1", upstream: "http://127.0.0.1:40000/NGINX-test:20000", host: "localhost:20000", referrer: "http://localhost:5173/"
+2026/03/12 23:57:48 [error] 5432#13472: *6 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "OPTIONS /api/Save-JSON:20000 HTTP/1.1", upstream: "http://127.0.0.1:40000/NGINX-test:20000", host: "localhost:20000", referrer: "http://localhost:5173/"
+2026/03/12 23:57:48 [error] 5432#13472: *6 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "OPTIONS /api/Save-JSON:20000 HTTP/1.1", upstream: "http://localhost/NGINX-test:20000", host: "localhost:20000", referrer: "http://localhost:5173/"
+2026/03/12 23:57:49 [error] 5432#13472: *6 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "OPTIONS /api/Save-JSON:20000 HTTP/1.1", upstream: "http://localhost/NGINX-test:20000", host: "localhost:20000", referrer: "http://localhost:5173/"
+2026/03/12 23:57:52 [error] 5432#13472: *6 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "OPTIONS /api/Save-JSON:20000 HTTP/1.1", upstream: "http://localhost/NGINX-test:20000", host: "localhost:20000", referrer: "http://localhost:5173/"
+2026/03/12 23:57:52 [error] 5432#13472: *6 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "OPTIONS /api/Save-JSON:20000 HTTP/1.1", upstream: "http://localhost/NGINX-test:20000", host: "localhost:20000", referrer: "http://localhost:5173/"
+2026/03/19 19:11:28 [warn] 16036#21772: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/19 19:11:28 [warn] 16036#21772: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/19 19:11:28 [warn] 16036#21772: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/19 19:11:28 [warn] 23000#24212: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/19 19:11:28 [warn] 23000#24212: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/19 19:11:28 [warn] 23000#24212: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/26 21:30:25 [warn] 20964#20960: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/26 21:30:25 [warn] 20964#20960: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/26 21:30:25 [warn] 20964#20960: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/26 21:30:26 [warn] 20876#20908: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/26 21:30:26 [warn] 20876#20908: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/26 21:30:26 [warn] 20876#20908: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/26 21:37:37 [warn] 20256#18676: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/26 21:37:37 [warn] 20256#18676: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/26 21:37:37 [warn] 20256#18676: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/26 21:37:37 [warn] 10124#21200: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/26 21:37:37 [warn] 10124#21200: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/26 21:37:37 [warn] 10124#21200: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/26 21:41:38 [warn] 18852#2940: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/26 21:41:38 [warn] 18852#2940: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/26 21:41:38 [warn] 18852#2940: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/26 21:41:38 [warn] 18748#20420: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/26 21:41:38 [warn] 18748#20420: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/26 21:41:38 [warn] 18748#20420: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/26 21:42:56 [warn] 18268#3464: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/26 21:42:56 [warn] 18268#3464: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/26 21:42:56 [warn] 18268#3464: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/26 21:42:56 [warn] 2328#20936: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/26 21:42:56 [warn] 2328#20936: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/26 21:42:56 [warn] 2328#20936: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/26 21:43:47 [warn] 21440#20756: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/26 21:43:47 [warn] 21440#20756: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/26 21:43:47 [warn] 21440#20756: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/26 21:43:47 [warn] 18988#20740: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/26 21:43:47 [warn] 18988#20740: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/26 21:43:47 [warn] 18988#20740: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/26 21:45:15 [warn] 19176#19800: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/26 21:45:15 [warn] 19176#19800: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/26 21:45:15 [warn] 19176#19800: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/26 21:45:15 [notice] 19176#19800: signal process started
+2026/03/26 21:45:15 [warn] 18024#15672: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/26 21:45:15 [warn] 18024#15672: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/26 21:45:15 [warn] 18024#15672: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/26 21:45:54 [error] 18024#19868: *8 CreateFile() "D:\3курс6сем\ТРВП\лаб1\nginx-1.29.5/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2026/03/26 22:12:31 [warn] 2964#2340: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/26 22:12:31 [warn] 2964#2340: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/26 22:12:31 [warn] 2964#2340: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/26 22:12:31 [notice] 2964#2340: signal process started
+2026/03/26 22:12:31 [warn] 2768#5676: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/26 22:12:31 [warn] 2768#5676: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/26 22:12:31 [warn] 2768#5676: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/26 22:16:29 [warn] 21344#20712: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/26 22:16:29 [warn] 21344#20712: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/26 22:16:29 [warn] 21344#20712: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/26 22:16:29 [warn] 20568#5096: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/26 22:16:29 [warn] 20568#5096: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/26 22:16:29 [warn] 20568#5096: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/26 22:22:41 [emerg] 7588#9900: cannot load certificate "D:\3курс6сем\ТРВП\лаб1
+ginx-1.29.5\conf\certs\localhost+2.pem": BIO_new_file() failed (SSL: error:8000007B:system library::no protocol option:calling fopen(D:\3курс6сем\ТРВП\лаб1
+ginx-1.29.5\conf\certs\localhost+2.pem, r) error:10080002:BIO routines::system lib)
+2026/03/26 22:24:42 [warn] 924#1980: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/26 22:24:42 [warn] 924#1980: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/26 22:24:42 [warn] 924#1980: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/26 22:24:42 [warn] 9804#2372: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/26 22:24:42 [warn] 9804#2372: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/26 22:24:42 [warn] 9804#2372: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/26 22:25:16 [emerg] 15376#20824: cannot load certificate "D:\3курс6сем\ТРВП\лаб1
+ginx-1.29.5\conf\certs\localhost+2.pem": BIO_new_file() failed (SSL: error:8000007B:system library::no protocol option:calling fopen(D:\3курс6сем\ТРВП\лаб1
+ginx-1.29.5\conf\certs\localhost+2.pem, r) error:10080002:BIO routines::system lib)
+2026/03/26 22:25:39 [emerg] 20584#21284: cannot load certificate "D:\3курс6сем\ТРВП\лаб1
+ginx-1.29.5\conf\certs\localhost+2.pem": BIO_new_file() failed (SSL: error:8000007B:system library::no protocol option:calling fopen(D:\3курс6сем\ТРВП\лаб1
+ginx-1.29.5\conf\certs\localhost+2.pem, r) error:10080002:BIO routines::system lib)
+2026/03/26 22:26:05 [warn] 5948#7536: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/26 22:26:05 [warn] 5948#7536: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/26 22:26:05 [warn] 5948#7536: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/26 22:26:05 [warn] 6460#20072: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/26 22:26:05 [warn] 6460#20072: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/26 22:26:05 [warn] 6460#20072: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/26 22:26:52 [warn] 2584#1708: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/26 22:26:52 [warn] 2584#1708: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/26 22:26:52 [warn] 2584#1708: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/26 22:26:52 [warn] 19552#20108: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/26 22:26:52 [warn] 19552#20108: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/26 22:26:52 [warn] 19552#20108: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/26 22:26:59 [warn] 11128#4880: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/26 22:26:59 [warn] 11128#4880: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/26 22:26:59 [warn] 11128#4880: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/26 22:26:59 [warn] 20268#1340: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/26 22:26:59 [warn] 20268#1340: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/26 22:26:59 [warn] 20268#1340: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/26 22:28:38 [warn] 2032#19896: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/26 22:28:38 [warn] 2032#19896: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/26 22:28:38 [warn] 2032#19896: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/26 22:28:38 [notice] 2032#19896: signal process started
+2026/03/26 22:28:39 [warn] 16200#21192: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/26 22:28:39 [warn] 16200#21192: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/26 22:28:39 [warn] 16200#21192: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/26 22:37:28 [emerg] 8780#18148: "location" directive is not allowed here in D:\3курс6сем\ТРВП\лаб1\nginx-1.29.5/conf/nginx.conf:162
+2026/03/26 22:40:39 [emerg] 18660#20692: cannot load certificate key "D:\3курс6сем\ТРВП\лаб1\nginx-1.29.5/conf/certs/localhost+2-key.pem": PEM_read_bio_PrivateKey() failed (SSL: error:1E08010C:DECODER routines::unsupported:No supported data to decode. Input type: PEM)
+2026/03/26 22:41:50 [emerg] 10144#21836: cannot load certificate key "D:\3курс6сем\ТРВП\лаб1\nginx-1.29.5/conf/certs/localhost+2-key.pem": PEM_read_bio_PrivateKey() failed (SSL: error:1E08010C:DECODER routines::unsupported:No supported data to decode. Input type: PEM)
+2026/03/26 22:42:18 [emerg] 24984#20708: cannot load certificate key "D:\3курс6сем\ТРВП\лаб1\nginx-1.29.5/conf/certs/localhost+2-key.pem": PEM_read_bio_PrivateKey() failed (SSL: error:1E08010C:DECODER routines::unsupported:No supported data to decode. Input type: PEM)
+2026/03/26 22:42:51 [emerg] 13988#21104: cannot load certificate key "D:\3курс6сем\ТРВП\лаб1\nginx-1.29.5/conf/certs/localhost+2-key.pem": PEM_read_bio_PrivateKey() failed (SSL: error:1E08010C:DECODER routines::unsupported:No supported data to decode. Input type: PEM)
+2026/03/26 22:43:01 [emerg] 1980#20216: cannot load certificate key "D:\3курс6сем\ТРВП\лаб1\nginx-1.29.5/conf/certs/localhost+2-key.pem": PEM_read_bio_PrivateKey() failed (SSL: error:1E08010C:DECODER routines::unsupported:No supported data to decode. Input type: PEM)
+2026/03/26 22:45:57 [warn] 21932#20900: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/26 22:45:57 [warn] 21932#20900: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/26 22:45:57 [warn] 21932#20900: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/26 22:45:57 [emerg] 21932#20900: unexpected "}" in D:\3курс6сем\ТРВП\лаб1\nginx-1.29.5/conf/nginx.conf:213
+2026/03/26 22:46:29 [warn] 21692#24680: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/26 22:46:29 [warn] 21692#24680: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/26 22:46:29 [warn] 21692#24680: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/26 22:46:29 [emerg] 21692#24680: unexpected "}" in D:\3курс6сем\ТРВП\лаб1\nginx-1.29.5/conf/nginx.conf:213
+2026/03/26 22:46:37 [warn] 21828#24244: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/26 22:46:37 [warn] 21828#24244: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/26 22:46:37 [warn] 21828#24244: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/26 22:46:37 [emerg] 21828#24244: unexpected "}" in D:\3курс6сем\ТРВП\лаб1\nginx-1.29.5/conf/nginx.conf:213
+2026/03/27 08:29:45 [warn] 6540#9360: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/27 08:29:45 [warn] 6540#9360: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/27 08:29:45 [warn] 6540#9360: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/27 08:29:45 [emerg] 6540#9360: unexpected "}" in D:\3курс6сем\ТРВП\лаб1\nginx-1.29.5/conf/nginx.conf:213
+2026/03/27 08:30:21 [warn] 24140#12824: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/27 08:30:21 [warn] 24140#12824: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/27 08:30:21 [warn] 24140#12824: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/27 08:30:21 [emerg] 24140#12824: unexpected "}" in D:\3курс6сем\ТРВП\лаб1\nginx-1.29.5/conf/nginx.conf:213
+2026/03/27 08:31:13 [warn] 9752#16956: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/27 08:31:13 [warn] 9752#16956: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/27 08:31:13 [warn] 9752#16956: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/27 08:31:13 [emerg] 9752#16956: unexpected "}" in D:\3курс6сем\ТРВП\лаб1\nginx-1.29.5/conf/nginx.conf:213
+2026/03/27 08:32:11 [warn] 12544#20836: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/27 08:32:11 [warn] 12544#20836: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/27 08:32:11 [warn] 12544#20836: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/27 08:32:11 [emerg] 12544#20836: unexpected "}" in D:\3курс6сем\ТРВП\лаб1\nginx-1.29.5/conf/nginx.conf:213
+2026/03/27 08:32:28 [warn] 16688#19164: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/27 08:32:28 [warn] 16688#19164: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/27 08:32:28 [warn] 16688#19164: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/27 08:32:28 [notice] 16688#19164: signal process started
+2026/03/27 08:32:28 [error] 16688#19164: OpenEvent("Global\ngx_reload_11128") failed (2: The system cannot find the file specified)
+2026/03/27 08:32:37 [warn] 24932#23696: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/27 08:32:37 [warn] 24932#23696: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/27 08:32:37 [warn] 24932#23696: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/27 08:32:37 [warn] 8588#15368: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/27 08:32:37 [warn] 8588#15368: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/27 08:32:37 [warn] 8588#15368: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/27 08:32:40 [warn] 11456#9932: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/27 08:32:40 [warn] 11456#9932: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/27 08:32:40 [warn] 11456#9932: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/27 08:32:40 [notice] 11456#9932: signal process started
+2026/03/27 08:32:40 [warn] 3524#25412: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/27 08:32:40 [warn] 3524#25412: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/27 08:32:40 [warn] 3524#25412: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/03/27 08:32:45 [error] 3524#22784: *1 CreateFile() "D:\3курс6сем\ТРВП\лаб1\nginx-1.29.5/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2026/03/27 08:32:50 [error] 3524#22784: *4 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /api/Save-JSON HTTP/1.1", upstream: "http://[::1]:40000/NGINX-test", host: "localhost:20443"
+2026/03/27 08:32:52 [error] 3524#22784: *4 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /api/Save-JSON HTTP/1.1", upstream: "http://127.0.0.1:40000/NGINX-test", host: "localhost:20443"
+2026/04/03 10:08:49 [warn] 17648#13892: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/04/03 10:08:49 [warn] 17648#13892: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/04/03 10:08:49 [warn] 17648#13892: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/04/03 10:08:49 [warn] 21880#14940: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/04/03 10:08:49 [warn] 21880#14940: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/04/03 10:08:49 [warn] 21880#14940: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/04/14 09:31:53 [warn] 18208#13828: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/04/14 09:31:53 [warn] 18208#13828: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/04/14 09:31:53 [warn] 18208#13828: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/04/14 09:31:54 [warn] 21724#20516: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/04/14 09:31:54 [warn] 21724#20516: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/04/14 09:31:54 [warn] 21724#20516: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/04/14 10:10:32 [error] 21724#15564: *1 directory index of "C:/pr/Course_Project/cosmetic-center-app/build/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:20444"
+2026/04/14 10:24:27 [warn] 8660#10360: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/04/14 10:24:27 [warn] 8660#10360: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/04/14 10:24:27 [warn] 8660#10360: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/04/14 10:24:27 [notice] 8660#10360: signal process started
+2026/04/14 10:24:28 [warn] 11552#11952: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/04/14 10:24:28 [warn] 11552#11952: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/04/14 10:24:28 [warn] 11552#11952: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/04/14 23:38:12 [warn] 6676#8956: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/04/14 23:38:12 [warn] 6676#8956: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/04/14 23:38:12 [warn] 6676#8956: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/04/14 23:38:12 [warn] 18236#19956: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/04/14 23:38:12 [warn] 18236#19956: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/04/14 23:38:12 [warn] 18236#19956: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/04/14 23:43:52 [warn] 19236#12400: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/04/14 23:43:52 [warn] 19236#12400: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/04/14 23:43:52 [warn] 19236#12400: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/04/14 23:43:52 [notice] 19236#12400: signal process started
+2026/04/14 23:43:52 [warn] 18768#9808: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/04/14 23:43:52 [warn] 18768#9808: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/04/14 23:43:52 [warn] 18768#9808: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/04/14 23:46:55 [warn] 10568#12360: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/04/14 23:46:55 [warn] 10568#12360: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/04/14 23:46:55 [warn] 10568#12360: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/04/14 23:46:55 [notice] 10568#12360: signal process started
+2026/04/14 23:46:55 [warn] 1584#10204: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/04/14 23:46:55 [warn] 1584#10204: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/04/14 23:46:55 [warn] 1584#10204: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/04/14 23:48:51 [error] 1584#8468: *7 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /login HTTP/1.1", upstream: "http://[::1]:3001/login", host: "localhost:20444"
+2026/04/14 23:48:53 [error] 1584#8468: *7 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /login HTTP/1.1", upstream: "http://127.0.0.1:3001/login", host: "localhost:20444"
+2026/04/14 23:48:58 [error] 1584#8468: *7 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /login HTTP/1.1", upstream: "http://localhost/login", host: "localhost:20444"
+2026/04/14 23:48:59 [error] 1584#8468: *7 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /login HTTP/1.1", upstream: "http://localhost/login", host: "localhost:20444"
+2026/04/17 10:55:05 [warn] 18264#11656: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/04/17 10:55:05 [warn] 18264#11656: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/04/17 10:55:05 [warn] 18264#11656: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/04/17 10:55:06 [warn] 10852#11952: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/04/17 10:55:06 [warn] 10852#11952: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/04/17 10:55:06 [warn] 10852#11952: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/04/20 12:39:11 [warn] 2896#1932: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/04/20 12:39:11 [warn] 2896#1932: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/04/20 12:39:11 [warn] 2896#1932: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/04/20 12:39:11 [warn] 26528#3196: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/04/20 12:39:11 [warn] 26528#3196: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/04/20 12:39:11 [warn] 26528#3196: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/04/21 15:28:34 [warn] 6892#22740: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/04/21 15:28:34 [warn] 6892#22740: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/04/21 15:28:34 [warn] 6892#22740: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/04/21 15:28:35 [warn] 21916#12760: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/04/21 15:28:35 [warn] 21916#12760: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/04/21 15:28:35 [warn] 21916#12760: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/04/22 17:22:36 [warn] 4400#8992: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/04/22 17:22:36 [warn] 4400#8992: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/04/22 17:22:36 [warn] 4400#8992: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/04/22 17:22:36 [warn] 14288#15228: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/04/22 17:22:36 [warn] 14288#15228: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/04/22 17:22:36 [warn] 14288#15228: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/04/22 18:30:15 [error] 14288#18736: *34 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 127.0.0.1, server: localhost, request: "GET /services_admin HTTP/1.1", host: "localhost:20444"
+2026/04/22 18:30:27 [warn] 2056#8060: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/04/22 18:30:27 [warn] 2056#8060: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/04/22 18:30:27 [warn] 2056#8060: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/04/22 18:30:27 [warn] 19708#14064: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/04/22 18:30:27 [warn] 19708#14064: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/04/22 18:30:27 [warn] 19708#14064: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/04/22 18:30:39 [error] 14288#18736: *35 directory index of "C:/pr/Course_Project/cosmetic-center-app/build/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:20444"
+2026/04/22 18:30:40 [error] 14288#18736: *35 directory index of "C:/pr/Course_Project/cosmetic-center-app/build/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:20444"
+2026/04/22 18:30:57 [error] 14288#18736: *35 directory index of "C:/pr/Course_Project/cosmetic-center-app/build/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:20444"
+2026/04/22 18:30:57 [error] 14288#18736: *35 directory index of "C:/pr/Course_Project/cosmetic-center-app/build/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:20444"
+2026/04/22 18:39:19 [error] 14288#18736: *44 CreateFile() "D:\3курс6сем\ТРВП\лаб1\nginx-1.29.5/html/hls.html" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /hls.html HTTP/1.1", host: "127.0.0.1"
+2026/04/22 23:13:24 [warn] 9152#9564: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/04/22 23:13:24 [warn] 9152#9564: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/04/22 23:13:24 [warn] 9152#9564: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/04/22 23:13:25 [warn] 6700#23636: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/04/22 23:13:25 [warn] 6700#23636: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/04/22 23:13:25 [warn] 6700#23636: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/04/24 10:56:34 [warn] 15920#17428: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/04/24 10:56:34 [warn] 15920#17428: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/04/24 10:56:34 [warn] 15920#17428: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/04/24 10:56:34 [warn] 13460#23316: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/04/24 10:56:34 [warn] 13460#23316: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/04/24 10:56:34 [warn] 13460#23316: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/04/26 17:37:17 [warn] 21688#7604: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/04/26 17:37:17 [warn] 21688#7604: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/04/26 17:37:17 [warn] 21688#7604: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/04/26 17:37:17 [warn] 7672#11836: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/04/26 17:37:17 [warn] 7672#11836: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/04/26 17:37:17 [warn] 7672#11836: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/04/26 23:27:35 [warn] 3144#14836: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/04/26 23:27:35 [warn] 3144#14836: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/04/26 23:27:35 [warn] 3144#14836: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/04/26 23:27:35 [warn] 26724#4232: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/04/26 23:27:35 [warn] 26724#4232: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/04/26 23:27:35 [warn] 26724#4232: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/04/28 08:26:51 [warn] 20104#17140: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/04/28 08:26:51 [warn] 20104#17140: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/04/28 08:26:51 [warn] 20104#17140: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/04/28 08:26:51 [warn] 27376#2256: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/04/28 08:26:51 [warn] 27376#2256: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/04/28 08:26:51 [warn] 27376#2256: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/01 11:51:27 [warn] 21364#25536: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/01 11:51:27 [warn] 21364#25536: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/01 11:51:27 [warn] 21364#25536: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/01 11:51:27 [warn] 9760#11120: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/01 11:51:27 [warn] 9760#11120: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/01 11:51:27 [warn] 9760#11120: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/02 17:47:39 [warn] 18224#20128: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/02 17:47:39 [warn] 18224#20128: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/02 17:47:39 [warn] 18224#20128: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/02 17:47:39 [warn] 9548#12340: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/02 17:47:39 [warn] 9548#12340: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/02 17:47:39 [warn] 9548#12340: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/05 20:26:43 [warn] 12800#17688: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/05 20:26:43 [warn] 12800#17688: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/05 20:26:43 [warn] 12800#17688: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/05 20:26:44 [warn] 3912#25624: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/05 20:26:44 [warn] 3912#25624: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/05 20:26:44 [warn] 3912#25624: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/07 13:13:50 [warn] 19072#1952: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/07 13:13:50 [warn] 19072#1952: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/07 13:13:50 [warn] 19072#1952: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/07 13:13:50 [warn] 25272#2816: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/07 13:13:50 [warn] 25272#2816: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/07 13:13:50 [warn] 25272#2816: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/09 20:54:13 [warn] 24292#5844: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/09 20:54:13 [warn] 24292#5844: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/09 20:54:13 [warn] 24292#5844: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/09 20:54:13 [warn] 23252#21168: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/09 20:54:13 [warn] 23252#21168: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/09 20:54:13 [warn] 23252#21168: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/10 10:39:38 [warn] 25112#12044: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/10 10:39:38 [warn] 25112#12044: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/10 10:39:38 [warn] 25112#12044: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/10 10:39:38 [warn] 27872#26740: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/10 10:39:38 [warn] 27872#26740: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/10 10:39:38 [warn] 27872#26740: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/11 12:01:07 [warn] 22084#7948: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/11 12:01:07 [warn] 22084#7948: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/11 12:01:07 [warn] 22084#7948: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/11 12:01:07 [warn] 8856#3876: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/11 12:01:07 [warn] 8856#3876: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/11 12:01:07 [warn] 8856#3876: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/11 20:04:01 [warn] 3848#23192: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/11 20:04:01 [warn] 3848#23192: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/11 20:04:01 [warn] 3848#23192: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/11 20:04:01 [warn] 24636#20236: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/11 20:04:01 [warn] 24636#20236: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/11 20:04:01 [warn] 24636#20236: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/11 20:07:38 [warn] 9328#13504: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/11 20:07:38 [warn] 9328#13504: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/11 20:07:38 [warn] 9328#13504: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/11 20:07:39 [warn] 13796#13844: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/11 20:07:39 [warn] 13796#13844: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/11 20:07:39 [warn] 13796#13844: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/12 20:27:06 [warn] 18220#15692: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/12 20:27:06 [warn] 18220#15692: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/12 20:27:06 [warn] 18220#15692: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/12 20:27:06 [warn] 7348#23072: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/12 20:27:06 [warn] 7348#23072: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/12 20:27:06 [warn] 7348#23072: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/13 12:18:46 [warn] 10880#18076: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/13 12:18:46 [warn] 10880#18076: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/13 12:18:46 [warn] 10880#18076: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/13 12:18:46 [warn] 9924#15000: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/13 12:18:46 [warn] 9924#15000: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/13 12:18:46 [warn] 9924#15000: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/17 22:08:29 [warn] 4828#25092: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/17 22:08:29 [warn] 4828#25092: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/17 22:08:29 [warn] 4828#25092: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/17 22:08:29 [warn] 25816#19652: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/17 22:08:29 [warn] 25816#19652: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/17 22:08:29 [warn] 25816#19652: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/17 22:47:19 [warn] 22696#30760: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/17 22:47:19 [warn] 22696#30760: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/17 22:47:19 [warn] 22696#30760: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/17 22:47:19 [warn] 9696#13800: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/17 22:47:19 [warn] 9696#13800: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/17 22:47:19 [warn] 9696#13800: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/21 18:19:27 [warn] 9108#25668: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/21 18:19:27 [warn] 9108#25668: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/21 18:19:27 [warn] 9108#25668: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/21 18:19:27 [warn] 5088#10776: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/21 18:19:27 [warn] 5088#10776: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/21 18:19:27 [warn] 5088#10776: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/21 18:47:00 [warn] 20808#17148: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/21 18:47:00 [warn] 20808#17148: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/21 18:47:00 [warn] 20808#17148: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/21 18:47:00 [warn] 14784#17660: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/21 18:47:00 [warn] 14784#17660: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/21 18:47:00 [warn] 14784#17660: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/21 23:27:02 [warn] 24316#6184: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/21 23:27:02 [warn] 24316#6184: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/21 23:27:02 [warn] 24316#6184: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/21 23:27:02 [warn] 10476#14776: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/21 23:27:02 [warn] 10476#14776: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/21 23:27:02 [warn] 10476#14776: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/21 23:38:56 [warn] 23952#19128: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/21 23:38:56 [warn] 23952#19128: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/21 23:38:56 [warn] 23952#19128: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/21 23:38:56 [warn] 4268#7688: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/21 23:38:56 [warn] 4268#7688: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/21 23:38:56 [warn] 4268#7688: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/21 23:54:06 [warn] 11728#2772: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/21 23:54:06 [warn] 11728#2772: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/21 23:54:06 [warn] 11728#2772: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/21 23:54:06 [warn] 24980#22228: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/21 23:54:06 [warn] 24980#22228: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/21 23:54:06 [warn] 24980#22228: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/22 00:10:05 [error] 24980#25504: *9 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: 0.0.0.0:1435, upstream: "127.0.0.2:1434", bytes from/to client:0/0, bytes from/to upstream:0/0
+2026/05/22 10:37:33 [warn] 19476#13404: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/22 10:37:33 [warn] 19476#13404: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/22 10:37:33 [warn] 19476#13404: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/22 10:37:33 [warn] 22660#22744: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/22 10:37:33 [warn] 22660#22744: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/22 10:37:33 [warn] 22660#22744: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/22 12:03:30 [warn] 16264#11764: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/22 12:03:30 [warn] 16264#11764: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/22 12:03:30 [warn] 16264#11764: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/22 12:03:30 [notice] 16264#11764: signal process started
+2026/05/23 21:38:44 [warn] 12232#25076: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/23 21:38:44 [warn] 12232#25076: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/23 21:38:44 [warn] 12232#25076: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/23 21:38:44 [warn] 13340#4396: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/23 21:38:44 [warn] 13340#4396: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/05/23 21:38:44 [warn] 13340#4396: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/06/11 22:45:10 [warn] 14144#24892: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/06/11 22:45:10 [warn] 14144#24892: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/06/11 22:45:10 [warn] 14144#24892: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/06/11 22:45:10 [warn] 19984#28560: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/06/11 22:45:10 [warn] 19984#28560: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/06/11 22:45:10 [warn] 19984#28560: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/06/11 22:51:43 [warn] 18616#2752: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/06/11 22:51:43 [warn] 18616#2752: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/06/11 22:51:43 [warn] 18616#2752: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/06/11 22:51:43 [warn] 18616#2752: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/06/11 22:51:43 [warn] 21040#14016: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/06/11 22:51:43 [warn] 21040#14016: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/06/11 22:51:43 [warn] 21040#14016: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/06/11 22:51:43 [warn] 21040#14016: conflicting server name "localhost" on 0.0.0.0:20000, ignored
+2026/06/11 22:51:49 [error] 19984#27356: *3 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /api/Save-JSON HTTP/1.1", upstream: "http://127.0.0.1:40000/NGINX-test", host: "localhost:20000"
+2026/06/11 22:51:51 [error] 19984#27356: *3 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /api/Save-JSON HTTP/1.1", upstream: "http://[::1]:40000/NGINX-test", host: "localhost:20000"
+2026/06/11 22:51:57 [error] 19984#27356: *3 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /api/Save-JSON HTTP/1.1", upstream: "http://localhost/NGINX-test", host: "localhost:20000"
+2026/06/11 23:35:39 [error] 19984#27356: *103 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /api/Save-JSON HTTP/1.1", upstream: "http://[::1]:40000/NGINX-test", host: "localhost:20000", referrer: "http://localhost:20000/TDWA02-02.html"
+2026/06/11 23:35:40 [error] 19984#27356: *102 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /api/Save-JSON HTTP/1.1", upstream: "http://127.0.0.1:40000/NGINX-test", host: "localhost:20000", referrer: "http://localhost:20000/TDWA02-02.html"
+2026/06/11 23:35:40 [error] 19984#27356: *102 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /api/Save-JSON HTTP/1.1", upstream: "http://localhost/NGINX-test", host: "localhost:20000", referrer: "http://localhost:20000/TDWA02-02.html"
+2026/06/11 23:35:41 [error] 19984#27356: *103 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /api/Save-JSON HTTP/1.1", upstream: "http://127.0.0.1:40000/NGINX-test", host: "localhost:20000", referrer: "http://localhost:20000/TDWA02-02.html"
+2026/06/11 23:35:47 [error] 19984#27356: *103 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /api/Save-JSON HTTP/1.1", upstream: "http://localhost/NGINX-test", host: "localhost:20000", referrer: "http://localhost:20000/TDWA02-02.html"
+2026/06/11 23:35:48 [error] 19984#27356: *103 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /api/Save-JSON HTTP/1.1", upstream: "http://localhost/NGINX-test", host: "localhost:20000", referrer: "http://localhost:20000/TDWA02-02.html"
+2026/06/11 23:35:49 [error] 19984#27356: *103 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /api/Save-JSON HTTP/1.1", upstream: "http://localhost/NGINX-test", host: "localhost:20000", referrer: "http://localhost:20000/TDWA02-02.html"
+2026/06/11 23:35:49 [error] 19984#27356: *103 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /api/Save-JSON HTTP/1.1", upstream: "http://localhost/NGINX-test", host: "localhost:20000", referrer: "http://localhost:20000/TDWA02-02.html"
